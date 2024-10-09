@@ -10,6 +10,14 @@ The scripts are designed to work with CNVkit ratio files, containing the followi
 - log2
 - weight
 
+## Installation
+To set up and quickly start working with this repository is via Conda, which ensures installation of all dependencies. First clone the repository and then create conda environment with the following command:
+```bash
+git clone https://github.com/kamilah100/cnv_plotly.git
+cd cnv_plotly
+conda env create -f environment.yml
+```
+
 
 ## Scripts
 ### `run_plotly_cnv.py`
