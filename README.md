@@ -10,7 +10,7 @@ The scripts are designed to work with CNVkit ratio files, containing the followi
 - log2
 - weight
 
-The script automaticaly highlights the following genes:
+**The script automatically highlights the following genes:**
 MDM4,MYCN,IDH1,GLI2,PIK3CA,CTNNB1,PDGFRA,FGFR3,TERT,APC,MYB,BRAF,EGFR,CDK6,MET,MYC,MYBL1,CDKN2A,CDKN2B,PTCH1,PTEN,SUFU,MGMT,RELA,CCND1,CCND2,CDK4,MDM2,RB1,BRCA2,IDH2,CREBBP,TSC2,TP53,NF1,PPM1D,SMARCA4,GNAS,NF2,SMARCB1
 
 ## Installation
@@ -23,8 +23,8 @@ conda env create -f environment.yml
 
 
 ## Scripts
-### `run_plotly_cnv.py`
 
+`run_plotly_cnv.py`
 This script is designed to analyze and visualize CNV data using Plotly. It reads CNVkit ratio files, calculates rolling means, and generates interactive plots with customizable features.
 
 #### Usage
